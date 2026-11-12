@@ -1,0 +1,19 @@
+.DS_Store
+
+# Terraform local state and providers (may contain generated passwords)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Real variable files; the example is safe to share
+*.tfvars
+*.tfvars.json
+!*.tfvars.example

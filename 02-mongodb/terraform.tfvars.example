@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars and adjust if needed.
+region       = "us-east-1"
+cluster_name = "mdb-search-test"   # must match stage 1
+
+# optional overrides
+# rs_members    = 1
+# mongodb_image = "mongodb/mongodb-enterprise-server:8.3-ubi9"
+# mck_version   = "1.9.1"
